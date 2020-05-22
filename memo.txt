@@ -1,8 +1,18 @@
 commande : git init 
 
-descriptions : initialiser un projet git dans le dossier dans lequel on se situe.
+description : initialiser un projet git dans le dossier dans lequel on se situe.
 
 ===================================================================================
 
-get add.
+commande : git status
+
+description : permet de faire le bilan sur l'état actuel du projet.
+- en ouge : les modifications qui ne seront pas enregistrées.
+- en vert : les modifications actuel de notre projet.
+
+====================================================================================
+
+commande : git add .
+
+description : 
 
