@@ -30,14 +30,20 @@ modifications, en y attachant un message personalisé, sensé décrire les modif
 
 =====================================================================================
 
-commande git config user.name "Name"
+commande : git config user.name "Name"
 
 description : configure le compte utilisé pour signé les paquets
 
 ======================================================================================
 
-commande git config user.email "Email"
+commande : git config user.email "Email"
 
 description : configure l'adresse mail utilisée pour signé les paquets
+
+======================================================================================
+
+commande : git log
+
+description : Affiche l'historique des commits réalisés. Pour quitter cette commande il est souvent nécéssaire d'appuyer sur "q".
 
 ======================================================================================
