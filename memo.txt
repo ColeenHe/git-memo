@@ -14,7 +14,7 @@ description : permet de faire le bilan sur l'état actuel du projet.
 
 commande : git add <dossier ou fichier>
 
-description : (souvent on tape git app.) 
+description : (souvent on tape git add.) 
 Permet d'indiquer à git d'ajouter les modifications ciblées au prochain commit
 Les modifications seront passé de la zone "rouge" (unstagged), qui ne sont pas prises en compte lors d'un commit, à la zone verte (stagged).
 Quand une modification est dans la zone "verte", on peut faire un commit
@@ -66,3 +66,11 @@ Cette commande n'est à entrer qu'une fois
 par projet.
 Cette commande nécessite d'avoir ajouté un
 dépôt avec la commande "git remote"
+
+======================================================================================
+ 
+commande : git push 
+
+ 
+description : envoie nos modifications enregistrées vers le dépôt
+distant configuré avec la commande précédente.
